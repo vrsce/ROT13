@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROT!</title>
+
+    <style>
+        .top {
+            color: #0000FF;
+            margin-left: 40%;
+            font-size: 4em;
+        }
+        .top:hover {
+            color: #000;
+        }
+        .instr {
+            margin-top: -40px;
+            margin-left: 40%;
+            border: 1px solid #696969;
+            width: 15%;
+        }
+        .instrTxt {
+            margin-left: 10%;
+        }
+        .boxx {
+            width: 50%;
+            margin-left: 10%;
+            height: auto;
+            overflow-wrap: break-word;
+        }
+        .results {
+            width: 55%;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="top"><u>ROT~13</u></h1>
+    <div class="instr">
+        <h4 class="instrTxt">
+            Type to Encrypt  ⇆  Decrypt 
+        </h4>
+    </div>
+
+    <div class="boxx">
+        <h1 class="results" align="center" title="copy/paste w/ mouse">
+            it goes here...
+        </h1>
+    </div>
+
+<script>
+    const results = document.querySelector('.results');
+    let newArr = [];
+
+
+    document.addEventListener('keydown', (key) => {
+        if (key.keyCode == 65) {
+            newArr.push('N');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 66) {
+            newArr.push('O');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 67) {
+            newArr.push('P');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 68) {
+            newArr.push('Q');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 69) {
+            newArr.push('R');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 70) {
+            newArr.push('S');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 71) {
+            newArr.push('T');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 72) {
+            newArr.push('U');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 73) {
+            newArr.push('V');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 74) {
+            newArr.push('W');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 75) {
+            newArr.push('X');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 76) {
+            newArr.push('Y');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 77) {
+            newArr.push('Z');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 78) {
+            newArr.push('A');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 79) {
+            newArr.push('B');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 80) {
+            newArr.push('C');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 81) {
+            newArr.push('D');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 82) {
+            newArr.push('E');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 83) {
+            newArr.push('F');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 84) {
+            newArr.push('G');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 85) {
+            newArr.push('H');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 86) {
+            newArr.push('I');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 87) {
+            newArr.push('J');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 88) {
+            newArr.push('K');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 89) {
+            newArr.push('L');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 90) {
+            newArr.push('M');
+            results.textContent = newArr.join('');
+        }
+       
+        /*end letters start #'s , punctuation*/
+
+
+        else if (key.keyCode == 48) {
+            newArr.push('0');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 49) {
+            newArr.push('1');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 50) {
+            newArr.push('2');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 51) {
+            newArr.push('3');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 52) {
+            newArr.push('4');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 53) {
+            newArr.push('5');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 54) {
+            newArr.push('6');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 55) {
+            newArr.push('7');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 56) {
+            newArr.push('8');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 57) {
+            newArr.push('9');
+            results.textContent = newArr.join('');
+        }
+
+
+        else if (key.keyCode == 189) {
+            newArr.push('-');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 190) {
+            newArr.push('.');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 191) {
+            newArr.push('/');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 32) {
+            newArr.push(' ');
+            results.textContent = newArr.join('');
+        }
+        else if (key.keyCode == 8) {
+            newArr.pop();
+            results.textContent = newArr.join('')
+        }
+    });
+
+
+</script>
+
+
+</body>
+</html>
